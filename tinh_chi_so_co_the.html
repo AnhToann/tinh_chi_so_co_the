@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh_chi_so_co_the</title>
+</head>
+<body>
+ <script>
+     var weight = parseInt(prompt('Enter your weight'));
+     var height = parseInt(prompt('Enter your height:'));
+     var bmi = weight / Math.pow(height,2);
+     if (bmi <18) {
+         alert('Underweight');
+     } else if (bmi <25) {
+         alert( ('Normal'));
+     }else if (bmi<30){
+         alert('Overweight');
+     } else {
+         alert('Obese')
+     }
+ </script>
+</body>
+</html>
